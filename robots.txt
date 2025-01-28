@@ -1,4 +1,4 @@
-Sitemap: https://pknir.github.io/mysite.xml
+Sitemap: https://pknir.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
