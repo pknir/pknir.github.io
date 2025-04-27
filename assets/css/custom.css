@@ -93,6 +93,39 @@ th {font-weight: 400;}
 .download-wallpaper a {background-color: #4e9502; color: #fff; padding: 5px 10px; border: 2px solid #4e9502; border-radius: 10px;}
 .download-wallpaper a:hover {background-color: #fff; color: #4e9502; border: 2px solid #4e9502; border-radius: 10px;}
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.ludwig {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid #4e9502;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+.ludwig:before, .ludwig:after {
+  content: '\201C';
+  font-family: 'Sanchez';
+  color: #4e9502;
+}
+.ludwig:after {
+  content: '\201D';
+}
+
 @media (max-width: 992px) {
 .hero {padding-top: 100px;}    
 .hero-image-inner {margin-bottom: 0px; margin-top: -20px; max-width: 100px !important;}
