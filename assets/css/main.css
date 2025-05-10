@@ -783,7 +783,7 @@ h3 .accent-text {
   .hero .hero-content h1 {
     font-size: 2rem;
   }
-  .clients .swiper-slide img {max-width: 125% !important;}
+  .clients .swiper-slide img {max-width: 120% !important;}
 }
 
 .hero .company-badge {
@@ -1592,7 +1592,7 @@ h3 .accent-text {
   filter: none;
   opacity: 1;
 } */
-.clients .swiper-slide img {border: 1px #ccc solid; padding: 10px; max-width: 150%;}
+.clients .swiper-slide img {border: 1px #f2f2f2 solid; max-width: 180%;}
 .clients .swiper-wrapper {
   height: auto;
 }
